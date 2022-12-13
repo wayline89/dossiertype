@@ -21531,3 +21531,106 @@ h1, .h1 {
   padding-left: 25vw;
   padding-right: 25vw;
 }
+
+@media only screen and (max-width: 425px) {
+  /*Small smartphones [325px -> 425px]*/
+  .head1 {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../../../images/bg-header-desktop.png);
+  }
+  .bloc1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .blablahead {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3vh;
+  }
+  .button1 {
+    border: none;
+    width: 10vw;
+    height: 6vh;
+    text-align: center;
+    color: white;
+    background: #26bba5;
+    border-radius: 40px;
+    margin-right: 0.5vw;
+  }
+  .button2 {
+    border: none;
+    padding: 7px 26px;
+    width: 10vw;
+    height: 6vh;
+    text-align: center;
+    color: white;
+    background: #6074ff;
+    border-radius: 40px;
+    margin-left: 0.5vw;
+  }
+  .petitcouleur {
+    color: #bbbfc2;
+  }
+  .grostxthead {
+    font-size: 30px;
+  }
+  .imgmac {
+    width: 200px;
+    height: 200px;
+  }
+  .blablamac2 {
+    margin-bottom: 0vh;
+  }
+  .p2bloc {
+    display: block;
+    margin-top: 0vh;
+  }
+  .imgtab2 {
+    width: 200px;
+    height: 200px;
+  }
+  .logomarques {
+    display: block;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .imglogomarques {
+    margin-bottom: 5vh;
+  }
+  .blabla2p {
+    display: block;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0vh;
+  }
+  .blablacharg {
+    display: block;
+    align-items: center;
+    margin-top: 10vh;
+    margin-left: 2vw;
+    margin-left: 2vw;
+  }
+  .blablamac {
+    display: block;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: none;
+    margin-top: 0vh;
+  }
+  .petitcouleur2p {
+    padding-left: 0vw;
+    padding-right: 0vw;
+    color: #bbbfc2;
+  }
+}
