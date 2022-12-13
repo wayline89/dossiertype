@@ -21393,7 +21393,10 @@ h1, .h1 {
 }
 
 .blocbutton {
-  padding-top: 2vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .button1 {
@@ -21555,27 +21558,6 @@ h1, .h1 {
     align-items: center;
     margin-top: 3vh;
   }
-  .button1 {
-    border: none;
-    width: 10vw;
-    height: 6vh;
-    text-align: center;
-    color: white;
-    background: #26bba5;
-    border-radius: 40px;
-    margin-right: 0.5vw;
-  }
-  .button2 {
-    border: none;
-    padding: 7px 26px;
-    width: 10vw;
-    height: 6vh;
-    text-align: center;
-    color: white;
-    background: #6074ff;
-    border-radius: 40px;
-    margin-left: 0.5vw;
-  }
   .petitcouleur {
     color: #bbbfc2;
   }
@@ -21654,5 +21636,39 @@ h1, .h1 {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+  }
+  .blocbutton {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .button1 {
+    border: none;
+    padding: 7px 26px;
+    width: 55vw;
+    height: 6vh;
+    text-align: center;
+    color: white;
+    background: #26bba5;
+    border-radius: 40px;
+    margin-right: 0.5vw;
+    margin-bottom: 1vh;
+  }
+  .button2 {
+    border: none;
+    padding: 0px 0px;
+    width: 55vw;
+    height: 6vh;
+    text-align: center;
+    color: white;
+    background: #6074ff;
+    border-radius: 40px;
+    margin-left: 0.5vw;
+  }
+  .btndiv {
+    margin-bottom: 4vh;
   }
 }
