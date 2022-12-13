@@ -21587,11 +21587,16 @@ h1, .h1 {
     height: 200px;
   }
   .blablamac2 {
-    margin-bottom: 0vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
   }
   .p2bloc {
-    display: block;
-    margin-top: 0vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
   }
   .imgtab2 {
     width: 200px;
@@ -21604,7 +21609,11 @@ h1, .h1 {
     align-items: center;
   }
   .imglogomarques {
-    margin-bottom: 5vh;
+    margin-bottom: 2vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
   }
   .blabla2p {
     display: block;
@@ -21632,5 +21641,18 @@ h1, .h1 {
     padding-left: 0vw;
     padding-right: 0vw;
     color: #bbbfc2;
+  }
+  .petitcouleur333 {
+    color: #bbbfc2;
+    text-align: center;
+    padding-left: 0vw;
+    padding-right: 0vw;
+  }
+  .petitcouleur {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
   }
 }
